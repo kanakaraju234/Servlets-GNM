@@ -1,0 +1,127 @@
+@CHARSET "UTF-8";
+
+body {
+font: 12px verdana, arial, helvetica, sans-serif;
+background-color:#FFFFFF;
+} 
+
+
+
+ 
+table.wwFormTable {
+font:bold 13px verdana, arial, helvetica, sans-serif;
+
+border-width: 2px;
+border-color:  #7bc1f7;
+border-style: solid;
+color: #242;
+background-color: #7bc1f7;
+width: 60%;
+margin-left:15%;
+margin-right:35%;
+margin-top:2%;
+} 
+
+table.wwFormTable th {
+}
+
+table.wwFormTable tr td {
+background-color: #FFFFFF;
+margin: 5px;
+padding: 5px;
+}
+
+.tdLabel {
+/*
+border-width: 1px;
+border-color: #afa;
+border-style: solid;
+*/
+font-weight: bold;
+align: top;
+} 
+
+
+
+.errorMessage {
+color: red;
+font-size: 0.8em;
+} 
+
+.required {
+color: red;
+font-size: 0.8em;
+} 
+
+
+#headerDiv {
+border-style: solid;
+border-width: 1px 1px 0px;
+border-color: black;
+padding: 5px;
+background-color: #7a7;
+/* height: 22px; */
+height: 1.8em;
+/* margin-bottom: 12px; */
+}
+
+#buttonBar {
+border-width: 0px 1px 1px;
+border-style: solid;
+border-color: black;
+color: white;
+margin-bottom: 12px;
+background-color: #7a7;
+height: 1.6em;
+padding: 5px;
+}
+
+#appName {
+color: white;
+font-size: 1.8em;
+}
+
+#pageTitle {
+font-size: 1.4em;
+color: #dfd;
+clear: none;
+}
+
+#appName, #pageTitle {
+float: right;
+}
+
+#menuContainer {
+float: left;
+}
+
+#brandingContainer {
+float: right;
+text-align: right;
+} 
+
+
+
+
+  .textbox { 
+    border: 1px solid #c4c4c4; 
+    height: 25px; 
+     
+    text-transform:uppercase;
+    font-size: 13px; 
+    padding: 4px 4px 4px 4px; 
+    border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    box-shadow: 0px 0px 8px #d9d9d9; 
+    -moz-box-shadow: 0px 0px 8px #d9d9d9; 
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9; 
+} 
+ 
+.textbox:focus { 
+    outline: none; 
+    border: 1px solid #7bc1f7; 
+    box-shadow: 0px 0px 8px #7bc1f7; 
+    -moz-box-shadow: 0px 0px 8px #7bc1f7; 
+    -webkit-box-shadow: 0px 0px 8px #7bc1f7; 
+} 
